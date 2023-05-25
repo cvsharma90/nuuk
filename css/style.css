@@ -2,6 +2,7 @@
 *{
     box-sizing: border-box;
 }
+
 body {
     margin-top: 2%;
     margin-right: 2%;
@@ -11,9 +12,11 @@ body {
     font-size: 14px;
     line-height: 20px;
 }
+
 .container{
     position: relative;
 }
+
 .banner{
     display: flex;
    
@@ -28,6 +31,7 @@ body {
     background-attachment: scroll, fixed; 
     position: relative;  
 }
+
 .nav-bar{
     position: absolute;
     left: 0%;
@@ -67,11 +71,11 @@ body {
         display: inline-block;
         box-sizing: border-box;
         width: 90px;
-    }
+}
 
 .nav-items{
        margin-left: 58%;
-    }
+}
     
 .nav-items a{
        position: relative;
@@ -82,11 +86,11 @@ body {
        font-weight: 700;
        text-decoration: none;
        transition: .2s;
-    }
+}
+
 .nav-items .active{
         color: #e47312;
-    }
-
+}
 
 .top-title.on-banner{
     color: #fff;
@@ -100,6 +104,7 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;   
 }
+
 .subtitle.on-banner{
     margin-top: 10px;
     font-size: 20px;
@@ -118,12 +123,14 @@ body {
     border: 0;
     margin-top: 20px;
 }
+
 .btn a{
     text-decoration: none;
     color: #fff;
     font-size: 12px;
     width: auto;
 }
+
 .btn:hover {
     background-color: #e98a38;
 }
@@ -139,6 +146,7 @@ body {
     right: 0;
     bottom: -83px;
 }
+
 .contactus{
     z-index: 1;
     display: flex;
@@ -148,12 +156,14 @@ body {
     padding-bottom: 30px;    
     align-items: flex-start;
 }
+
 .contactus-child{
     display: flex;
     padding-top: 10px;
     flex-direction: column;
     align-items: center;
 }
+
 .contactus-child img{
     width: 24px;
     margin-bottom: 15px;
@@ -161,6 +171,7 @@ body {
     vertical-align: middle;
     display: inline-block;
 }
+
 .contactus-child h1, .find-map{
     margin-top: 0px;
     margin-bottom: 10px;
@@ -169,15 +180,18 @@ body {
     line-height: 20px;
    
 }
+
 .contactus-child p{
     margin-bottom: 5px;
     color: hsla(0, 0%, 100%, 0.7);
     font-size: 17px;
     line-height: 25px;
 }
+
 .find-map {
     text-decoration: none;   
 }
+
 .find-map:hover{
     text-decoration: underline 2px;
     text-underline-offset: 4px;
@@ -210,6 +224,7 @@ body {
     margin-left: 5%;
     
 }
+
 h1{
     position: relative;
     z-index: 2;
@@ -228,6 +243,7 @@ h1{
    
     column-gap: 20px;
 }
+
 .specialization-type h2{
     margin-top: 0px;
     font-size: 17px;
@@ -235,6 +251,7 @@ h1{
     letter-spacing: 1px;
     color: #121213;
 }
+
 .specialization-type p, .who-we-are p, .get-in-touch p, .testimonials-title p{
 
     margin-top: 10px;
@@ -243,23 +260,29 @@ h1{
     line-height: 25px;
     letter-spacing: 1px;
 }
-.specialization-type a, .who-we-are a, .our-work-text a, .get-in-touch a, .testimonials-title a{
+
+.specialization-type a, .who-we-are a, .our-work a, .get-in-touch a, .testimonials-title a,
+.latest-news a,  .latest-text a{
     text-decoration: none;
     color: #919198;
     font-size: 15px;
     letter-spacing: 1px;
 }
-.specialization-type a:hover, .who-we-are a:hover, .our-work-text a:hover, .get-in-touch a:hover, .professionals-text a:hover, .testimonials-title a:hover{
+
+.specialization-type a:hover, .who-we-are a:hover, .our-work-text a:hover, .get-in-touch a:hover, .professionals-text a:hover, .testimonials-title a:hover,
+.latest-news a:hover{
     text-decoration: underline red 2px;
     text-underline-offset: 5px;
 
 }
+
 .specialization img{
     margin-bottom: 20px;
     width: 60px;
 }
 
 /* ---------------------who-we-are------------------ */
+
 .who-we-are, .fun-facts{
     display: grid;
     grid-template-columns: auto auto;
@@ -268,9 +291,11 @@ h1{
     margin-right: 5%;
     margin-left: 5%;
 }
+
 .who-we-are img{
     max-width: 100%;
 }
+
 .who-we-text{
     padding-left: 20%;
 }
@@ -302,12 +327,12 @@ h1{
     background-color: #f7f8fc;
 }
 
-.our-work-text, .professionals-text{
+.our-work-text, .professionals-text, .latest-news-text{
     display: flex;
     justify-content: space-between;
    
 }
-.our-work-text h1, .professionals-text h1{
+.our-work-text h1, .professionals-text h1, .latest-news-text h1{
     padding: 60px;
 }
 
@@ -318,19 +343,21 @@ h1{
 
 }
 
-.our-work-images{
+.our-work-images, .latest-news-images{
     display: grid;
     grid-template-columns: auto auto auto;
     column-gap: 20px;
     row-gap: 20px;
     padding: 20px;
 }
-.our-work-images img, .professionals-content img{
+.our-work img, .professionals-content img, .latest-news img{
     width: 100%;
-
 }
 
+
+
 /* ------------------get-in-touch---------- */
+
 .get-in-touch{
     padding-top: 7%;
     padding-bottom: 7%;
@@ -349,17 +376,19 @@ h1{
 
 /* --------------------professionals----------------- */
 
-
 .professionals-grid{
     display: grid;
     grid-template-columns: auto auto auto auto;
     column-gap: 20px;
     row-gap: 20px;
+
+}
    
 .managers{
     position: relative;
     width: 95%;
 }
+
 
 .manager-pic{
     min-height: 300px;
@@ -382,15 +411,18 @@ h1{
     background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/team-4.jpg);
 }
 
+
 .manager-info{
     padding: 10px;
     background-color: #fff;
     text-align: center;
 }
+
 .manager-info p{
    color: grey;
     font-size: 17px;
 }
+
 
 .manager-social-account{
     display: flex;
@@ -401,6 +433,8 @@ h1{
     padding: 22px;
     background-color: red;
 }
+
+
 .manager-social-account img{
     width: 20px;
     padding-bottom: 10px;
@@ -408,7 +442,150 @@ h1{
     border-bottom: 2px solid #fff;
 }
 
+
+
+
+/* ----------------testimonials----------------- */
+
 .testimonials{
     display: grid;
     grid-template-columns: 40% 60%;
+    padding: 60px;
+
+}
+
+.testimonials-title{
+    text-align: center;
+    margin: auto;
+}
+
+.testimonials-texts{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.testimonials-texts-content{
+    background-color: #fff;   
+    text-align: center;   
+
+    position: relative;
+    display: block;
+    width: 90%;
+    margin: 50px auto 61px;
+    padding: 80px 30px 26px;
+}
+
+.testimonials-texts-content h3, .testimonials-texts-content p{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    color: #919197;
+} 
+
+.testimonials-texts2{
+    top: 80px;
+}
+
+.testimonials-texts4{
+    top: 60px;
+}
+
+.testimonials-photo{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin: -115px auto 25px;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 100%;
+    background-image: linear-gradient(8deg, #ff6361, #e47312);
+   
+    color: #fff;
+    font-size: 80px;
+    line-height: 80px;
+    padding-top: 12px;
+}
+
+
+
+
+/* --------------------latest-news--------------- */
+
+.latest-text{
+    background-color: red;
+    padding: 40px ;
+    color: #fff;      
+} 
+
+.latest-text p{
+    margin-top: 10px;
+    font-size: 17px;   
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+ .latest-text a{
+    color: #fff;
+ }
+
+  .latest-text a:hover{
+    text-decoration: underline #fff 2px;
+    text-underline-offset: 5px;
+}
+
+/* -----------------logos------------ */
+
+.logos{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;   
+    padding: 60px; 
+}
+
+.logos h2{
+    font-size: 17px;
+    color: #fff;
+}
+
+.logos h3{
+    font-size: 20px;
+    color: #fff;
+}
+
+
+/* --------------footer---------------------- */
+footer{
+    margin: 0 60px;
+    padding: 40px;
+    background-color: #0a1229;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    column-gap: 60px;
+}
+
+footer .about-nuuk p{
+    font-size: 17px;
+    line-height: 30px;
+}
+
+footer .opening-time{
+  padding: 10px 0;
+}
+
+footer .services h2{
+    padding-left: 40px;
+}
+
+footer .contact-us h2{
+    padding-top: 10px;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer ul li{
+    padding-top: 10px;
 }
