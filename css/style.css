@@ -524,7 +524,7 @@ h1{
     line-height: 25px;
     letter-spacing: 1px;
 }
- .latest-text a{
+ .latest-text a,{
     color: #fff;
  }
 
@@ -570,6 +570,20 @@ footer .about-nuuk p{
     line-height: 30px;
 }
 
+.footer-map{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-map:hover{
+    text-decoration: underline #fff 2px;
+    text-underline-offset: 5px;
+}
+
+.logo-footer{
+    bottom: 0px;
+}
+
 footer .opening-time{
   padding: 10px 0;
 }
@@ -588,5 +602,5 @@ footer ul{
 
 footer ul li{
     padding-top: 10px;
-    
+
 }
